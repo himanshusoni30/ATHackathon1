@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VisualAIRockStar">
+  <test name="Test">
+    <classes>
+      <class name="com.applitools.hackathon.VisualAIRockStar.test.VisualAITestsV1"/>
+      <class name="com.applitools.hackathon.VisualAIRockStar.test.VisualAITestsV2"/>
+      <class name="com.applitools.hackathon.VisualAIRockStar.test.TraditionalTestsV1"/>
+      <class name="com.applitools.hackathon.VisualAIRockStar.test.TraditionalTestsV2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- VisualAIRockStar -->
