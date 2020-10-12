@@ -32,14 +32,14 @@ public class BaseTests {
 	public static Object[][] credentials() {
 
 		return new Object[][] { { "", "", "Both Username and Password must be present" },
-				{ "himsoni@gmail.com", "", "Password must be present" },
+				{ "XXXXXXXXX", "", "Password must be present" },
 				{ "", "xxxxxxxxxxx", "Username must be present" } };
 	}
 
 	@DataProvider(name = "CredentialsForLoginPass")
 
 	public static Object[][] validcred() {
-		return new Object[][] { { "himsoni@gmail.com", "xxxxxxxxxxx" } };
+		return new Object[][] { { "XXXXXXXXX", "xxxxxxxxxxx" } };
 	}
 	
 	@BeforeSuite
